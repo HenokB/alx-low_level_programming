@@ -5,9 +5,9 @@
  * Return: 1 if c is digit, otherwise 0
  */
 
-int main(void)
+int _isdigit(int c)
 {
-	
+
   return (((c > 47 && c < 58)) ? 1 : 0);
 }
 
