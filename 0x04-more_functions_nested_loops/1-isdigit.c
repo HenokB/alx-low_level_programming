@@ -5,10 +5,9 @@
  * Return: 1 if c is digit, otherwise 0
  */
 
-int _isdigit(int c)
+int main(void)
 {
-  if ((c >= '0') && (c <= '9'))
-    return (1);
-  else
-    return (0);
+	
+  return (((c > 47 && c < 58)) ? 1 : 0);
 }
+
