@@ -7,7 +7,12 @@
 
 int _isdigit(int c)
 {
-
-  return (((c > 47 && c < 58)) ? 1 : 0);
+	if ((c >= '0') && (c <= '9')){
+  		return (1);
+	}
+    
+	else{
+		return (0);
+	}
+   
 }
-
