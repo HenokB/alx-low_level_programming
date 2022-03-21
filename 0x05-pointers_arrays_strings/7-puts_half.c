@@ -23,25 +23,3 @@ void puts_half(char *str)
 	}
 	_putchar('\n');
 }
-/* another way of doing it*/
-/*
-void puts_half(char *str)
-{
-        int n, length, print;
-
-        length = _strlen(str);
-        if (length % 2 == 0)
-        {
-                n = length / 2;
-                for (print = n; str != '\0' && print < length; print++)
-                        _putchar(str[print]);
-        }
-        if (length % 2 != 0)
-        {
-                n = (length - 1) / 2;
-                for (print = n; str != '\0' && print < length; print++)
-                        _putchar(str[print]);
-        }
-        _putchar('\n');
-}
-*/
